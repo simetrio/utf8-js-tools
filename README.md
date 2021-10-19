@@ -3,7 +3,7 @@ utf8-js-tools
 
 [![NPM Version](http://img.shields.io/npm/v/utf8-js-tools.svg?style=flat)](https://www.npmjs.com/package/utf8-js-tools)
 
-Encode/Decode text in utf8 encoding.
+Encode/Decode text in utf8 encoding
 
 ## With npm
 
