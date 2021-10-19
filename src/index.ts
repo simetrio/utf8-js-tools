@@ -8,6 +8,6 @@ export const UTF8: IUTF8 = {
 };
 
 interface IUTF8 {
-    encode: (value: string) => string;
-    decode: (value: string) => string;
+    encode: (unicodeText: string) => string;
+    decode: (utf8Text: string) => string;
 }
