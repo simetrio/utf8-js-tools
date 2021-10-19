@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>utf8-js-tools</title>
+
+    <script src="utf8.min.js"></script>
+  </head>
+  <body>
+    <h1>utf8-js-tools</h1>
+    <div>
+        <span>UTF8.encode("utf\xAF8\u263A"):</span>
+        <b id="utf8-encode"></b>
+    </div>
+    <div>
+        <span>UTF8.decode("\x75\x74\x66\xC2\xAF\x38\xE2\x98\xBA"):</span>
+        <b id="utf8-decode"></b>
+    </div>
+
+    <script>
+        document.getElementById("utf8-encode").innerText = UTF8.encode("utf\xAF8\u263A");
+        document.getElementById("utf8-decode").innerText = UTF8.decode("\x75\x74\x66\xC2\xAF\x38\xE2\x98\xBA");
+    </script>
+  </body>
+</html>
