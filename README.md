@@ -5,6 +5,10 @@ utf8-js-tools
 
 Encode/Decode text in utf8 encoding
 
+## Demo
+
+[Online Unicode To UTF8 Converter](https://www.olrix.net/tools/unicode-to-utf8-converter/)
+
 ## With npm
 
 ### Install
@@ -34,7 +38,7 @@ const { UTF8 } = require("utf8-js-tools");
 or
 
 ```javascript
-<script src="https://cdn.jsdelivr.net/gh/simetrio/utf8-js-tools@1.0.0/utf8.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/simetrio/utf8-js-tools@1.0.1/utf8.min.js"></script>
 ```
 
 ## Usage
