@@ -38,7 +38,7 @@ const { UTF8 } = require("utf8-js-tools");
 or
 
 ```javascript
-<script src="https://cdn.jsdelivr.net/gh/simetrio/utf8-js-tools@1.0.1/utf8.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/utf8-js-tools@1.0.2/lib/utf8.min.js"></script>
 ```
 
 ## Usage
